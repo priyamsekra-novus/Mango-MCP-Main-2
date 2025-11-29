@@ -18,7 +18,7 @@ from faker import Faker
 fake = Faker()
 
 # MongoDB connection string
-MONGO_URI = "mongodb+srv://vatsaljoshi257:Dn091064@cluster0.vlsb0p1.mongodb.net/"
+MONGO_URI = ""
 DATABASE_NAME = "employee_performance_db"
 
 # Connect to MongoDB

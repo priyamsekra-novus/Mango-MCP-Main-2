@@ -50,7 +50,6 @@ MDB_MCP_CONNECTION_STRING=mongodb://localhost:27017/myDatabase
 
 For MongoDB Atlas:
 ```env
-MDB_MCP_CONNECTION_STRING=mongodb+srv://username:password@cluster.mongodb.net/database
 ```
 
 ### Option 2: Atlas API Credentials
@@ -182,7 +181,6 @@ See [MongoDB MCP Server documentation](https://github.com/mongodb-js/mongodb-mcp
 
 2. **Check connection string format:**
    - Local: `mongodb://localhost:27017/database`
-   - Atlas: `mongodb+srv://user:pass@cluster.mongodb.net/database`
 
 ### Node.js/npx Issues
 

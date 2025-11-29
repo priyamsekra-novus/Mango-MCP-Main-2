@@ -51,8 +51,7 @@ async def startup_event():
 
     # Connection string with a safe default (similar to example script)
     connection_string = os.getenv(
-        "MDB_MCP_CONNECTION_STRING",
-        "mongodb+srv://vatsaljoshi257:Dn091064@cluster0.vlsb0p1.mongodb.net/",
+        "MDB_MCP_CONNECTION_STRING"
     )
 
     # MongoDB MCP Tools
